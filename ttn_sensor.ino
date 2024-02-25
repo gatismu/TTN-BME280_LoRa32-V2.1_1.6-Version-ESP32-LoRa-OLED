@@ -5,9 +5,9 @@
 #include "TTN_CayenneLPP.h"
 
 // Define device EUI, application EUI, and application key
-const char* devEui = "70B3D57ED00651B9"; // Change to TTN Device EUI
+const char* devEui = "0000000000000000"; // Change to TTN Device EUI
 const char* appEui = "0000000000000000"; // Change to TTN Application EUI
-const char* appKey = "E641FBD79972F3868986453857823E61"; // Change to TTN Application Key
+const char* appKey = "00000000000000000000000000000000"; // Change to TTN Application Key
 
 // Define battery monitoring pin
 const uint8_t vbatPin = 35; // Battery pin
